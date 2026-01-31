@@ -1,0 +1,9 @@
+# To embed an Image in a readme file in Github repo:
+- through Relative paths : when we commit/upload the image to repo - either as in assets folder or as a file. We use markdown code line to embed the image already existing in the repo using relative path.
+                                          ![Alt text](path/to/your/image.png)
+Alt text = to describe image , if image is unable to load or to read aloud.
+- by dropping down the image inside readme 
+- using external line - when the image is already hosted externally.
+                                          ![Alt text](https://example.com/link/to/your/image.png)
+- using Advanced sizing with HTML
+                                          <img src="path/to/your/image.png" alt="Alt text" width="300" height="200">
